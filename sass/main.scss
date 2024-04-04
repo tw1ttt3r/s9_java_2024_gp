@@ -1,14 +1,12 @@
-.roboto-bold {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
+@import "colors";
+@import "fuentes";
+
 
 body {
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: bisque;
+  background-color: $bg-color;
 }
 
 h1 {
